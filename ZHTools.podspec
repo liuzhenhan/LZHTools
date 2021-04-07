@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 Pod::Spec.new do |s|
-s.name         = "ZHTools"
+s.name         = "LZHTools"
 s.version      = "0.0.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.summary      = "tools browser for ios."
