@@ -6,6 +6,9 @@
 //
 
 import UIKit
+//CC_MD5 需要饮用此头文件
+import CommonCrypto
+
 
 class LZHToolsManger: NSObject {
     override init() {
