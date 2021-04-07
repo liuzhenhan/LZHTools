@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9C5E202261DCC3E00CDF097 /* ViewPagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E1FE261DCC3E00CDF097 /* ViewPagerTabView.swift */; };
-		D9C5E203261DCC3E00CDF097 /* ViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E1FF261DCC3E00CDF097 /* ViewPager.swift */; };
-		D9C5E204261DCC3E00CDF097 /* ViewPagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E200261DCC3E00CDF097 /* ViewPagerOptions.swift */; };
-		D9C5E205261DCC3E00CDF097 /* ViewPagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E201261DCC3E00CDF097 /* ViewPagerTab.swift */; };
-		D9C5E210261DCFAA00CDF097 /* ZHTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D9C5E20F261DCFAA00CDF097 /* ZHTools.podspec */; };
+		D9C5E21F261DD08300CDF097 /* ViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E21B261DD08300CDF097 /* ViewPager.swift */; };
+		D9C5E220261DD08300CDF097 /* ViewPagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E21C261DD08300CDF097 /* ViewPagerTabView.swift */; };
+		D9C5E221261DD08300CDF097 /* ViewPagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E21D261DD08300CDF097 /* ViewPagerTab.swift */; };
+		D9C5E222261DD08300CDF097 /* ViewPagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E21E261DD08300CDF097 /* ViewPagerOptions.swift */; };
+		D9C5E227261DD08F00CDF097 /* ZHTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D9C5E226261DD08F00CDF097 /* ZHTools.podspec */; };
 		D9D001222616E19600BD0243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D001212616E19600BD0243 /* AppDelegate.swift */; };
 		D9D001242616E19600BD0243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D001232616E19600BD0243 /* SceneDelegate.swift */; };
 		D9D001262616E19600BD0243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D001252616E19600BD0243 /* ViewController.swift */; };
@@ -40,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9C5E1FE261DCC3E00CDF097 /* ViewPagerTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTabView.swift; sourceTree = "<group>"; };
-		D9C5E1FF261DCC3E00CDF097 /* ViewPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPager.swift; sourceTree = "<group>"; };
-		D9C5E200261DCC3E00CDF097 /* ViewPagerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerOptions.swift; sourceTree = "<group>"; };
-		D9C5E201261DCC3E00CDF097 /* ViewPagerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTab.swift; sourceTree = "<group>"; };
-		D9C5E20F261DCFAA00CDF097 /* ZHTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZHTools.podspec; path = ../ZHTools.podspec; sourceTree = "<group>"; };
+		D9C5E21B261DD08300CDF097 /* ViewPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPager.swift; sourceTree = "<group>"; };
+		D9C5E21C261DD08300CDF097 /* ViewPagerTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTabView.swift; sourceTree = "<group>"; };
+		D9C5E21D261DD08300CDF097 /* ViewPagerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTab.swift; sourceTree = "<group>"; };
+		D9C5E21E261DD08300CDF097 /* ViewPagerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerOptions.swift; sourceTree = "<group>"; };
+		D9C5E226261DD08F00CDF097 /* ZHTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZHTools.podspec; path = ../ZHTools.podspec; sourceTree = "<group>"; };
 		D9D0011E2616E19600BD0243 /* LZHToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZHToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D001212616E19600BD0243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D001232616E19600BD0243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,22 +86,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D98892B12616FBF80052CE94 /* LZHTools */ = {
+		D9C5E21A261DD08300CDF097 /* ZHtools */ = {
 			isa = PBXGroup;
 			children = (
-				D9C5E1FF261DCC3E00CDF097 /* ViewPager.swift */,
-				D9C5E200261DCC3E00CDF097 /* ViewPagerOptions.swift */,
-				D9C5E201261DCC3E00CDF097 /* ViewPagerTab.swift */,
-				D9C5E1FE261DCC3E00CDF097 /* ViewPagerTabView.swift */,
+				D9C5E21B261DD08300CDF097 /* ViewPager.swift */,
+				D9C5E21C261DD08300CDF097 /* ViewPagerTabView.swift */,
+				D9C5E21D261DD08300CDF097 /* ViewPagerTab.swift */,
+				D9C5E21E261DD08300CDF097 /* ViewPagerOptions.swift */,
 			);
-			path = LZHTools;
+			name = ZHtools;
+			path = ../../ZHtools;
 			sourceTree = "<group>";
 		};
 		D9D001152616E19600BD0243 = {
 			isa = PBXGroup;
 			children = (
-				D9C5E20F261DCFAA00CDF097 /* ZHTools.podspec */,
-				D98892B12616FBF80052CE94 /* LZHTools */,
+				D9C5E226261DD08F00CDF097 /* ZHTools.podspec */,
 				D9D001202616E19600BD0243 /* LZHToolsDemo */,
 				D9D001372616E19900BD0243 /* LZHToolsDemoTests */,
 				D9D001422616E19900BD0243 /* LZHToolsDemoUITests */,
@@ -122,6 +122,7 @@
 		D9D001202616E19600BD0243 /* LZHToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9C5E21A261DD08300CDF097 /* ZHtools */,
 				D9D001212616E19600BD0243 /* AppDelegate.swift */,
 				D9D001232616E19600BD0243 /* SceneDelegate.swift */,
 				D9D001252616E19600BD0243 /* ViewController.swift */,
@@ -256,7 +257,7 @@
 			files = (
 				D9D0012E2616E19800BD0243 /* LaunchScreen.storyboard in Resources */,
 				D9D0012B2616E19800BD0243 /* Assets.xcassets in Resources */,
-				D9C5E210261DCFAA00CDF097 /* ZHTools.podspec in Resources */,
+				D9C5E227261DD08F00CDF097 /* ZHTools.podspec in Resources */,
 				D9D001292616E19600BD0243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,13 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C5E204261DCC3E00CDF097 /* ViewPagerOptions.swift in Sources */,
+				D9C5E21F261DD08300CDF097 /* ViewPager.swift in Sources */,
+				D9C5E222261DD08300CDF097 /* ViewPagerOptions.swift in Sources */,
 				D9D001262616E19600BD0243 /* ViewController.swift in Sources */,
-				D9C5E203261DCC3E00CDF097 /* ViewPager.swift in Sources */,
+				D9C5E221261DD08300CDF097 /* ViewPagerTab.swift in Sources */,
 				D9D001222616E19600BD0243 /* AppDelegate.swift in Sources */,
 				D9D001242616E19600BD0243 /* SceneDelegate.swift in Sources */,
-				D9C5E205261DCC3E00CDF097 /* ViewPagerTab.swift in Sources */,
-				D9C5E202261DCC3E00CDF097 /* ViewPagerTabView.swift in Sources */,
+				D9C5E220261DD08300CDF097 /* ViewPagerTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
