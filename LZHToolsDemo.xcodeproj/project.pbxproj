@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D98892B32616FC180052CE94 /* LZHToolsManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98892B22616FC180052CE94 /* LZHToolsManger.swift */; };
-		D98892B82616FC2C0052CE94 /* ZHTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D98892B72616FC2C0052CE94 /* ZHTools.podspec */; };
 		D9C5E1E8261D6D8000CDF097 /* EventCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E1E6261D6D8000CDF097 /* EventCalendar.swift */; };
 		D9C5E1E9261D6D8000CDF097 /* PLEventManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E1E7261D6D8000CDF097 /* PLEventManger.swift */; };
 		D9D001222616E19600BD0243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D001212616E19600BD0243 /* AppDelegate.swift */; };
@@ -40,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		D98892B22616FC180052CE94 /* LZHToolsManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZHToolsManger.swift; sourceTree = "<group>"; };
-		D98892B72616FC2C0052CE94 /* ZHTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZHTools.podspec; sourceTree = "<group>"; };
 		D9C5E1E6261D6D8000CDF097 /* EventCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCalendar.swift; sourceTree = "<group>"; };
 		D9C5E1E7261D6D8000CDF097 /* PLEventManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLEventManger.swift; sourceTree = "<group>"; };
 		D9D0011E2616E19600BD0243 /* LZHToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZHToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +95,6 @@
 		D9D001152616E19600BD0243 = {
 			isa = PBXGroup;
 			children = (
-				D98892B72616FC2C0052CE94 /* ZHTools.podspec */,
 				D98892B12616FBF80052CE94 /* LZHTools */,
 				D9D001202616E19600BD0243 /* LZHToolsDemo */,
 				D9D001372616E19900BD0243 /* LZHToolsDemoTests */,
@@ -253,7 +250,6 @@
 			files = (
 				D9D0012E2616E19800BD0243 /* LaunchScreen.storyboard in Resources */,
 				D9D0012B2616E19800BD0243 /* Assets.xcassets in Resources */,
-				D98892B82616FC2C0052CE94 /* ZHTools.podspec in Resources */,
 				D9D001292616E19600BD0243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
