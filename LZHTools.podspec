@@ -16,4 +16,5 @@ s.source       = { :git => "https://github.com/liuzhenhan/LZHTools.git", :tag =>
 s.platform     = :ios, "13.0"
 s.source_files = 'ZHtools/*.swift'
 s.frameworks = "Foundation", "UIKit"
+s.swift_version='5.0'
 end
