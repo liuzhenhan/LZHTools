@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "ZHTools"
-  s.version      = "v0.0.1"
+  s.version      = "0.0.1"
  s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary      = "tools browser for ios."
   s.homepage     = "https://github.com/liuzhenhan/LZHTools"
